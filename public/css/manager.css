@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+html{
+  height: 100%;
+}
+
+body{
+  height: 80%;
+}
+
+body, p, h1, h3{
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  height: 40%;
+  padding-top: 25vh;
+}
+
+.title{
+  text-align: center;
+  height: 100%;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7vh;
+  background-color: white;
+}
+
+.title h1{
+  margin: 0;
+  font-size: 5vw;
+  color: black;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#manager{
+  background-image: url(/image/manager.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.title a{
+  display: inline-block;
+  margin-top: 2vh;
+  color: black;
+}
+
+.title a:hover{
+  color: dimgray;
+}
+
+.title_btn{
+  height: 25%;
+  padding-top: 5vh;
+}
+
+.title_btn .btn{
+  background-color: #4682b4;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 3px solid #4682b4;
+  height: 80%;
+  width: 20%;
+}
+
+.title_btn .btn:hover{
+  opacity: 0.9;
+}
+
+#prisy{
+  height: 100%;
+}
+
+.prisy_content{
+  height: 100%;
+}
+
+.prisy_title {
+  position: fixed; /* 要素の位置を固定する */
+  left: 40%;
+  top: 40vh;
+  width: 20%; /* 幅を指定する */
+  height: 25vh;
+  border: 3px solid black; /* ボーダーを指定する */
+  text-align: center;
+  z-index: 1999;
+  background-color: white;
+}
+
+.prisy_title h1{
+  font-size: 2.8vw;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
+.prisy_title h1 a{
+  text-decoration: none;
+}
+
+.prisy_title a{
+  display: inline-block;
+  color: black;
+}
+
+.prisy_title a:hover{
+  color: dimgray;
+}
+
+.prisy_title_btn{
+  height: 25%;
+}
+
+.prisy_title_btn .btn{
+  font-size: 0.7vw;
+  background-color: #4682b4;
+  color: #ffffff;
+  text-align: center;
+  margin-top: ;
+  border-radius: 5px;
+  border: 3px solid #4682b4;
+  height: 80%;
+  width: 30%;
+}
+
+.prisy_title_btn .btn:hover{
+  opacity: 0.9;
+}
+
+.prisy_event{
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.prisy_event::before{
+  content:"";
+  display: block;
+  width:20%;
+  margin: 25px;
+  order:1;
+}
+
+.prisy_event::after{
+  content:"";
+  display: block;
+  width: 20%;
+  margin: 25px;
+}
+
+
+
+.project{
+  width: 20%;
+  height: 25%;
+  margin: 25px;
+}
+
+.project_a{
+  background-color: rgba(0,0,0,.6);
+  height: 100%;
+  text-align: center;
+  color: white;
+}
+
+.s_name{
+  padding-top: 1vh;
+  font-size: 0.8em;
+  border-bottom: 1px solid white;
+}
+
+.plan_article{
+  font-size: 0.8em;
+  padding-top: 1vh;
+}
+
+.p_btn{
+  margin-top: 2.5vh;
+}
